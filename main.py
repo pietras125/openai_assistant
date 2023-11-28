@@ -1,6 +1,5 @@
 from openai import OpenAI
 import streamlit as st
-from htmlTemplates import bot_template, user_template, css
 import json
 import time
 
