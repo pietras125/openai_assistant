@@ -16,6 +16,7 @@ def wait_on_run(run, thread):
             thread_id=thread.id,
             run_id=run.id,
         )
+        print(run.status)
         time.sleep(0.5)
     return run
 
